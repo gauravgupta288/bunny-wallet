@@ -8,12 +8,12 @@ const LoginForm = () => {
     return (
         <div className='wrapper'>
             <form action=''>
-                <h1>Login<GiBunnySlippers /></h1> 
+                <h1>Bunny-wallet<GiBunnySlippers /></h1><h3>A Cypto app</h3>
                 <div className='input-box'>
-                    <input type="text" placeholder='Username' required /> <FaUserAstronaut />
+                    <input type="text" placeholder='Username' required /> <FaUserAstronaut className='icon'/>
                 </div>
                 <div className='input-box'>
-                    <input type="text" placeholder='Password' required /> <FaUnlock />
+                    <input type="password" placeholder='Password' required /> <FaUnlock className='icon'/>
                 </div>
                 <div className='remember-forgot'>
                     <label><input type="checkbox" />Remember me</label>

@@ -9,8 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: purple;
-}
+  background: url('./Components/Assets/wallet-mining-download2.jpg')}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
