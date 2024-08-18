@@ -5,8 +5,8 @@
     color: #fff;
     padding: 20px;
     border-radius: 12px; /* Increased border-radius for a softer edge */
-    box-shadow: 0 8px 16px rgba(27, 22, 22, 0.2),   /* Main shadow */
-                0 4px 8px rgba(0, 0, 0, 0.15) inset; /* Inset shadow for depth */
+    box-shadow: 0 8px 16px rgba(248, 245, 245, 0.2),   /* Main shadow */
+                0 4px 8px rgba(243, 2, 2, 0.719) inset; /* Inset shadow for depth */
     margin: 20px auto;
     text-align: center;
     position: relative;
@@ -66,6 +66,7 @@
     top : 50%;
     transform: translateY(-50%);
     font-size: 30px;
+    color: #2f4f4f;
 }
 
 .wrapper .remember-forgot{
